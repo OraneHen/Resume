@@ -1,0 +1,58 @@
+body{
+  background: url("sayagata-400px.png");
+}
+
+div{
+  //border:  2px solid;
+}
+
+.page{
+  margin: auto;
+  width: 1440px;
+}
+
+.Header{
+  padding-bottom: 20px;
+}
+
+.Head h1{
+  font-family: Arial;
+  border-bottom: solid 2px;
+}
+
+.info{
+  position: relative;
+  //display: block;
+  overflow: hidden;
+  left: 50px;
+  padding-bottom: 20px;
+}
+
+.info div{
+  position: relative;
+  float: left;
+}
+
+.inf{
+  padding-left: 20px;
+  border-left: solid 2px;
+}
+.title{
+  min-width: 120px;
+}
+
+.img{
+  position: absolute;
+  top: 20px;
+  float: left;
+  left: 55%;
+}
+.img img{
+  width : 338px;
+  height: 235px;
+  transform: rotate(-4deg);
+  box-shadow: 5px 5px 5px 0.15px;
+}
+.Para{
+  width: 50%;
+}
